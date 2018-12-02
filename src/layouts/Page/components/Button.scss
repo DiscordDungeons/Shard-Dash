@@ -1,0 +1,58 @@
+/* Buttons */
+
+.site-btn {
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 16px;
+	border-radius: 50px;
+	font-family: "Futura", sans-serif;
+	min-width: 170px;
+	text-align: center;
+	border: 2px solid #7ad4cc;
+	cursor: pointer;
+	color: #fff;
+ 
+ 	&.sb-gradients {
+		padding: 17px 32px;
+		border: none;
+		color: #fff;
+
+		&.sbg-line {
+			color: #20509e;
+			z-index: 1;
+		}
+
+		&:after{
+			position: absolute;
+			content: '';
+			width: calc(100% - 4px);
+			height: calc(100% - 4px);
+			background: #fff;
+			top: 2px;
+			left: 2px;
+			z-index: -1;
+			border-radius: 50px;
+		}
+	}
+
+	&.btn-square{
+		border-radius: unset;
+		border: none;
+		margin-bottom: 10px;
+	}
+
+	&.btn-blue{
+		background: #4D9DE0;
+
+		-webkit-transition: all 0.5s;
+			transition: all 0.5s;
+
+		&:hover{
+			background: #4081B8;
+			
+		}
+	}
+}
