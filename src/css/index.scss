@@ -12,23 +12,6 @@
 @import './vendor/themify-icons.css';
 
 @import '_variables';
-/* 
-@import 'about';
-@import 'buttons';
-@import 'fact';
-@import 'features';
-@import 'footer';
-@import 'header';
-@import 'helpers';
-@import 'hero';
-@import 'links';
-@import 'process';
-@import 'team';
-@import 'legal';
-
-@import 'loader';
-
-@import '_responsiveness.scss'; */
 
 html,
 body {
@@ -70,79 +53,4 @@ p {
 
 img {
 	max-width: 100%;
-}
-
-ul,
-ol {
-	padding: 0;
-	margin: 0;
-}
-
-
-/*---------------------
-	Commom elements
------------------------*/
-
-.gradient-bg,
-.site-btn.sb-gradients,
-.member-social a:hover,
-.single-blog-page .social-share a:hover,
-.comment .comment-content .c-btn:hover,
-.comment-form label {
-	/* FF3.6-15 */
-	/* Chrome10-25,Safari5.1-6 */
-	background: -webkit-gradient(linear, left top, right top, from(#3e2bce), color-stop(100%, #2dd3aa), color-stop(100%, #2dd3aa), to(#2dd3aa));
-	background: -o-linear-gradient(left, #3e2bce 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100%);
-	background: linear-gradient(to right, #3e2bce 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100%);
-	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e2bce', endColorstr='#2dd3aa', GradientType=1);
-	/* IE6-9 */
-}
-
-.green-bg{
-	background: #3C9E94;
-}
-
-.dark-bg{
-	background: #3B4255;
-}
-
-.page-info-section {
-	height: 300px;
-	background-image: url("https://i.kym-cdn.com/entries/icons/mobile/000/027/702/Screen_Shot_2018-11-26_at_10.02.57_AM.jpg");
-	background-size: cover;
-	background-color: #f3f7f9;
-	background-position: right top;
-	background-repeat: no-repeat;
-	position: relative;
-	overflow: hidden;
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-}
-
-.page-info-section h2 {
-	font-size: 64px;
-	color: #F8F7FF;
-	text-shadow: 1px 1px 1px #30343F;
-}
-
-.site-beradcamb {
-	padding-top: 10px;
-}
-
-.site-beradcamb a {
-	color: #20509e;
-	font-size: 16px;
-}
-
-.site-beradcamb span {
-	color: #F8F7FF;
-	font-size: 16px;
-}
-
-.site-beradcamb i {
-	margin: 0 3px;
 }

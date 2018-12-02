@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './PageInfo.scss'
+
 const PageInfo = () => (
 	<section className="page-info-section">
 		<div className="container">

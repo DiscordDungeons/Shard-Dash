@@ -1,0 +1,27 @@
+@media (max-width: 1425px) {
+	.page-info-section {
+		background-position: right 30% top;
+	}
+}
+
+.page-info-section {
+	height: 300px;
+	background-image: url("http://test.discorddungeons.me/img/page-info-bg.png");
+	background-size: cover;
+	background-color: #f3f7f9;
+	background-position: right top;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.page-info-section h2 {
+	font-size: 64px;
+	color: #F8F7FF;
+	text-shadow: 1px 1px 1px #30343F;
+}
