@@ -12,7 +12,7 @@ import ShardPage from 'features/ShardPage'
 class App extends React.Component {
 	render () {
 		return (
-			<div>
+			<div style={{ display: 'contents' }}>
 				<MetaTags />
 				<Page>
 					<ShardPage />

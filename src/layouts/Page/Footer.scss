@@ -93,3 +93,9 @@
 		text-align: center;
 	}
 }
+
+@media only screen and (max-width: 767px) {
+	.footer-widget {
+		margin-bottom: 30px;
+	}
+}

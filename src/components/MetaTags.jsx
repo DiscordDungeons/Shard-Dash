@@ -69,6 +69,10 @@ const MetaTags = () => (
 			integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
 			crossOrigin="anonymous"
 		/>
+
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link href="css/font-awesome.min.css" rel="stylesheet" />
+		<link href="css/themify-icons.css" rel="stylesheet" />
 	</Helmet>
 )
 

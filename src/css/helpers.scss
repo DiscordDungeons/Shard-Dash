@@ -1,0 +1,57 @@
+/*---------------------
+	Helper CSS
+-----------------------*/
+
+.spad {
+	padding-top: 100px;
+	padding-bottom: 90px;
+}
+
+.section-title {
+	margin-bottom: 60px;
+	
+	h2 {
+		margin-bottom: 20px;
+	}
+
+	p {
+		margin-bottom: 0;
+	}
+}
+
+
+.text-white h1,
+.text-white h2,
+.text-white h3,
+.text-white h4,
+.text-white h5,
+.text-white p,
+.text-white span,
+.text-white li,
+.text-white a {
+	color: #fff;
+}
+
+
+.set-bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 0;
+}
+
+.text-dark * {
+	color: #30343F !important;
+}
+
+.no-shadow * {
+	text-shadow: none !important;
+}
+
+.spad-130{
+	padding-bottom: 90px;
+	padding-top: 130px;
+}
+
+.spad-no-top{
+	padding-top: 0px;
+}

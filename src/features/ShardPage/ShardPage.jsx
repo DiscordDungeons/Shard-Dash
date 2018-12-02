@@ -9,10 +9,8 @@ const getStats = () => {
 }
 
 const ShardPage = () => (
-	<div>
-		<div className="row">
-			{ getStats() }
-		</div>
+	<div className="row" style={{ width: '100%', margin: 'auto' }}>
+		{ getStats() }
 	</div>
 )
 
