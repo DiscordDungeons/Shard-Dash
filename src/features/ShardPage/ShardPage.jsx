@@ -33,8 +33,6 @@ class ShardPage extends React.PureComponent {
 			shardData = null
 		}
 
-		console.log("shard", shardData)
-
 		if (!shardData) {
 			fakeLoadTimer = 1000
 		}
