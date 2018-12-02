@@ -1,0 +1,95 @@
+/*---------------------
+	Footer Section
+-----------------------*/
+
+.footer-widget {
+	p {
+		margin-bottom: 20px;
+	}
+
+	.widget-title {
+		margin-bottom: 30px;
+		font-size: 20px;
+	}
+
+	ul {
+		list-style: none;
+
+		a {
+			font-size: 16px;
+			color: #75849a;
+			display: block;
+			margin-bottom: 12px;
+		}
+
+		li {
+			&:last-child {
+				a {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}
+
+.social {
+	a {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		color: #fff;
+		display: inline-block;
+		margin-right: 10px;
+		text-align: center;
+		padding-top: 7px;
+		font-size: 18px;
+	
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	.twitter {
+		background: #49a7f3;
+	}
+
+	.github {
+		background: #000;
+	}
+
+	.discord {
+		background: #7289DA;
+	}
+
+	.reddit {
+		background: #FF4500;
+	}
+}
+
+
+.footer-bottom {
+	border-top: 1px solid #ebebeb;
+	padding: 30px 0;
+}
+
+.footer-nav {
+	list-style: none;
+
+	li {
+		display: inline-block;
+
+		a {
+			color: #75849a;
+			font-size: 14px;
+			margin-left: 20px;
+		}
+	}
+}
+
+/* Large Mobile :480px. */
+
+@media only screen and (max-width: 767px) {
+	.footer-section {
+		text-align: center;
+	}
+}

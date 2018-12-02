@@ -1,0 +1,24 @@
+/// Map deep get
+/// @author Hugo Giraudel
+/// @access public
+/// @param {Map} $map - Map
+/// @param {Arglist} $keys - Key chain
+/// @return {*} - Desired value
+@function map-deep-get($map, $keys...) {
+	@each $key in $keys {
+		$map: map-get($map, $key);
+	}
+	@return $map;
+}
+
+
+$breakpoints: (
+	medium-min: "(min-width: 1200px)",
+	large: "(max-width: 1425px)",
+	x-large: "(max-width: 1586px)",
+	small: "(min-width: 1199px) and (max-width: 1390px)",
+	medium-screen: "only screen and (min-width: 992px) and (max-width: 1199px)",
+	tablet: "only screen and (min-width: 768px) and (max-width: 991px)",
+	large-mobile: "only screen and (max-width: 767px)",
+	small-mobile: "only screen and (max-width: 479px)"
+);
