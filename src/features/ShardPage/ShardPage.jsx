@@ -28,7 +28,7 @@ class ShardPage extends React.PureComponent {
 		let shardData
 		let fakeLoadTimer = 0
 		try {
-			shardData = await fetch(`${config.get('REACT_APP_API_URL')}/v3/shards`).then(r => r.json())
+			shardData = await fetch(`${config.get('REACT_APP_API_URL')}/v3/sharddata`).then(r => r.json())
 		} catch (e) {
 			shardData = null
 		}
@@ -39,15 +39,22 @@ class ShardPage extends React.PureComponent {
 
 		setTimeout(() => {
 			this.setState({
-				shardData,
+				shardData: shardData.data,
 				isLoading: false,
 			})
 		}, fakeLoadTimer)
 	}
 
+	sortShards = shards =>
+		shards.sort((a, b) => a.shardID - b.shardID)
+
 	renderStats = (shards = null) => {
-		return shards ? Array(64).fill().map((_, i) => (
-			<ShardStats name={`Shard ${i}`}/>
+		return shards ? this.sortShards(shards).map((shard, i) => (
+			<ShardStats
+				name={`Shard ${shard.shardID}`}
+				{...shard}
+				key={shard.shardID}
+			/>
 		)) : this.renderError()
 	}
 
