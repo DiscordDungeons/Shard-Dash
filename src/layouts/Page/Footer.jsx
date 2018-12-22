@@ -11,8 +11,7 @@ const Footer = () => (
 				<div className="col-md-6 col-lg-3 footer-widget">
 					<img src={Logo} className="mb-4" alt="logo" />
 					<p>
-						Excepteur sint occaecat cupidatat non proident,
-						sunt in culpa qui officia dese mollit anim id est laborum.
+						Discord Dungeons - Fun boiled to the basics through a Discord Bot.
 					</p>
 					<span>
 						Copyright &copy; {new Date().getFullYear()}
@@ -26,6 +25,7 @@ const Footer = () => (
 						<li><a href="https://drpg.xyz/api">API Documents</a></li>
 						<li><a href="https://drpg.xyz/guild-perms">Guild Permissions</a></li>
 						<li><a href="https://drpg.xyz/blog">Blog</a></li>
+						<li><a href="https://drpg.xyz/shards">Shard Stats</a></li>
 					</ul>
 				</div>
 				<div className="col-md-6 col-lg-2 offset-lg-1 footer-widget">
@@ -33,7 +33,7 @@ const Footer = () => (
 					<ul>
 						<li><a href="https://drpg.xyz/bot">Bot Invite</a></li>
 						<li><a href="https://drpg.xyz/ideas">Ideas</a></li>
-						<li><a href="./team">Team</a></li>
+						<li><a href="https://drpg.xyz/team">Team</a></li>
 						<li><a href="mailto:support@discorddungeons.me">Contact</a></li>
 					</ul>
 				</div>
